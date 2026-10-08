@@ -1,0 +1,9 @@
+type Query {
+  "The current value of the shared counter."
+  counter: Int!
+}
+
+type Mutation {
+  "Adds 1 to the shared counter and returns the new value."
+  increment: Int!
+}
