@@ -1,5 +1,8 @@
 # Fall 2026
 
+Arjun's Readme notes: Basically the codebase has a svelte front end that just displays a counter and a button and a go backend that contains the total counter. It update the counter with graph QL and gets a response with the counter value. Overall the project was pretty simple -- I did learn a bit about Go and graphQL which I picked since I haven't worked with them before. One design choice was taking the max between the data recieved and the counters current state (for race condition problems). I used AI to code, write the tests, and debug.
+
+
 ## Step 1: Introduction
 
 You will create a project from scratch using the latest version of SvelteKit for the frontend and one of the following backend options:
